@@ -22,6 +22,7 @@ body {
     font-size: 60px;
     background-color: brown;
     width: 600px;
+    overflow: hidden;
 }
 
 .slice {
