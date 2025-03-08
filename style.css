@@ -43,7 +43,10 @@ body {
     .game {
         width: 300px;
         height: 300px;
-
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
     }
 
     .slice {
@@ -55,6 +58,7 @@ body {
 
     .title {
         width: 300px;
+        font-size: 40px;
     }
 
 }
