@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(146, 13, 13, 0.978) !important;
+
+}
+.game{
+    width: 600px;
+    height: 600px;
+    color: white;
+    margin:20px auto;
+
+}
+.title{
+    text-align: center;
+    font-size:60px ;
+    background-color: brown;
+    width: 480px;
+}
+.slice{
+    width: calc(100% / 4);
+    height: calc(100% /4);
+    margin: 5px;
+    background-color: brown;
+    float: left;
+    font-size: 90px;
+    text-align: center;
+}
+.slice:hover{
+    background-color: rgb(64, 10, 10);
+    cursor: pointer;
+}
